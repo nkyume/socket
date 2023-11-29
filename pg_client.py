@@ -8,7 +8,7 @@ from time import sleep
 import pygame as pg
 from debug import debug
 
-HOST = '31.200.237.17'
+HOST = '192.168.0.104'
 PORT = 47353
 ADDR = (HOST, PORT)
 
