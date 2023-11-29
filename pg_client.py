@@ -23,7 +23,6 @@ class Game():
         self.running = True
         threading.Thread(target=self.networking).start()
 
-
     def send(self, data):
         data = pickle.dumps(data)
         self.client.send(data)
